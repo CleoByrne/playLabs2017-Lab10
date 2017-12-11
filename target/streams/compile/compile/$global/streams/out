@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\web+mobile\WWDD1Lab10CRUD\app\controllers\HomeController.java:45:1: method render in class views.html.index cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m  required: java.util.List<models.Product>[0m
+[0m[[0m[31merror[0m] [0m[0m  found: java.util.List<models.Product>,java.util.List<models.Category>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m        return ok(index.render(productList, categoryList));[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\web+mobile\WWDD1Lab10CRUD\app\controllers\HomeController.java:55:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method bindFormRequest()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class play.data.Form<models.Product>[0m
+[0m[[0m[31merror[0m] [0m[0m        Form<Product> newProductForm = formFactory.form(Product.class).bindFormRequest();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\web+mobile\WWDD1Lab10CRUD\app\models\Category.java:34:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method orderBY(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: interface io.ebean.ExpressionList<models.Category>[0m
+[0m[[0m[31merror[0m] [0m[0m    return Category.find.query().where().orderBY("name asc").findList();[0m
